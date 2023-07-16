@@ -35,5 +35,9 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/bebas-neue": "^5.0.5",
+		"@melt-ui/svelte": "^0.22.2"
+	}
 }

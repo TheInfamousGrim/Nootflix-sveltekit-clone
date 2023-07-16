@@ -1,7 +1,14 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../app.css';
 </script>
+
+<svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+</svelte:head>
 
 <div class="app">
 	<Header />
@@ -11,7 +18,9 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p class="p-2 text-4xl font-bold underline">
+			visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit
+		</p>
 	</footer>
 </div>
 
